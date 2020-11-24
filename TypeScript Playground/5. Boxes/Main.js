@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Boxes_1 = require("./Boxes");
+var box = new Boxes_1.default();
+box.add(1);
+box.add(2);
+box.add(3);
+box.remove();
+console.log(box.count);
+var box2 = new Boxes_1.default();
+box2.add("Pesho");
+box2.add("Gosho");
+console.log(box2.count);
+box2.remove();
+console.log(box2.count);
