@@ -1,0 +1,11 @@
+*.zip
+*.rar
+*.txt
+
+#Temp doc files
+*.docx#
+
+#Picture formats:
+#*.jpg
+#*.jpeg
+#*.bmp
